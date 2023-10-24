@@ -1,0 +1,114 @@
+
+@media screen and (max-width: 768px) { 
+    #menu, #stores, #contact {
+      padding: 5em 0;
+    }
+      .btn-ctaMobile, .btn-ctaMobile:hover, .btn-ctaMobile:active {
+        top: 50px;
+        right: 85px;
+      }
+      .infoStore a{
+        color: #FFFFFF;
+        text-decoration: underline;
+       }
+    }
+    @media screen and (max-height: 736px){
+      .carousel {
+          width: 87%;
+        }
+      }
+    @media screen and (max-height: 731px){
+      .carousel {
+          width: 87%;
+        }
+      }
+    @media screen and (max-height: 640px){
+    .carousel {
+        width: 85%;
+      }
+    }
+    @media screen and (max-width:576px){
+      .shapemove {
+        height: 160px;
+        top: 39%;
+        left: 5%;
+    }
+      .infoStore p {
+        top: 0;
+        left: 0;
+        margin-bottom: 20px;
+      }
+      .btn-ctaMobile, .btn-ctaMobile:hover, .btn-ctaMobile:active {
+        top: 15px;
+        right: 60px;
+    }
+      .mainNav{
+        padding-top: 0em;
+      }
+      .carousel {
+        margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .portonBack {
+        background-position-x: -12%;
+        background-position-y: 20%;
+    }
+      h4, .h4 {
+        font-size: 1.2rem;
+    }
+    h1 {
+      font-size: 2.3em;
+    }
+      .social-buttons {
+        top: 0;
+        left: 0%;
+        margin-bottom: 2em;
+        position: relative;
+      }
+      .btn-delivery {
+        width: 65px;
+        height: 65px;
+        padding: 0;
+    }
+      .portonBack {
+        background-size: auto;
+      }
+      .navbar-brand {
+        max-width: 120px;
+      }
+      .citiesLinks, .citiesLinks:hover { 
+        float: left;
+        width: 50%;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+      }
+      .infoStore i{
+        display: none;
+      }
+      .storesPanel {
+        max-height: 220px;
+      }
+      fieldset {
+        padding: 3em 1em;
+      }
+      fieldset .shape {
+        width: 20px;
+        height: 20px;
+        bottom: -10px;
+        left: -10px;
+      }
+      .hr-section {
+        margin: 10px auto 0;
+    }
+    }
+    @media screen and (max-width:320px){
+      .navbar-brand {
+        max-width: 30%;
+      }
+      .btn-ctaMobile, .btn-ctaMobile:hover, .btn-ctaMobile:active {
+        top: 10px;
+        right: 60px;
+      }
+    }

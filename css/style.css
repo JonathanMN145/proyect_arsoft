@@ -1,0 +1,295 @@
+:root{
+    --mainColor:#700909;
+    --secondColor: #ceddd0;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+  *{
+    box-sizing: border-box;
+  }
+  html, body{
+    overflow-x: hidden;
+  }
+  html{
+    min-height: 100%;
+    position: relative;
+    height: 100vh;
+  }
+  body{
+    margin: 0 auto;
+    margin-bottom: 100px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .portonToogler{
+    padding: 0px;
+    border: 0;
+    color: var(--mainColor);
+    position: relative;
+    top: 2px;
+  }
+  .hr-section {
+      height: 5px;
+      background-color: var(--mainColor);
+      width: 100px;
+      margin: 100px auto 0;
+  }
+  .btn-ctaMobile, .btn-ctaMobile:hover, .btn-ctaMobile:active, .btn-cta, .btn-cta:hover{
+    position: fixed;
+    background-color: var(--mainColor);
+    color: #FFFFFF;
+    padding: 6px;
+    z-index: 1;
+    animation: call 2s 0s ease-in-out infinite;
+  }
+  @keyframes call{
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+  }
+  .mainNav{
+    padding-top: 1em;
+    background-color: #FFFFFF;
+    transition: .4s 0s ease-in-out;
+  }
+  .mainNav.NavSmall{
+    background-color: #FFFFFF;
+    box-shadow: 0 0 20px rgba(0,0,0,.30);
+  }
+  .mainLogo{
+    width: 200px;
+    transition: .4s 0s ease-in-out;
+  }
+  .mainLogo.logoScroll{
+    width: 80px;
+    margin: 0 auto;
+    display: block;
+  
+  }
+  .btn-cta, .btn-cta:hover{
+    background-color: var(--mainColor);
+    border-radius: 0%;
+    color: #FFFFFF;
+  }
+  .social-buttons{
+    position: fixed;
+    top: 45%;
+    left: 5%;
+    z-index: 1;
+  }
+  .social-buttons button{
+    border-radius: 50%;
+    border: 2px solid var(--mainColor);
+    padding: 5px;
+    width: 45px;
+    height: 45px;
+    background-color: #FFFFFF;
+    margin: 5px auto;
+    color: var(--mainColor);
+    transition: .3s 0s ease-in-out;
+  }
+  .social-buttons button:hover{
+    background-color: var(--mainColor);
+    color: #FFFFFF;
+  }
+  
+  .carousel {
+    margin-top: 160px;
+  }
+  .delivery-container{
+    position: relative;
+    top:-50px;
+  }
+  .btn-delivery{
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    border: none;
+    width: 80px;
+    height: 80px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,.30);
+    margin: 10px 5px;
+    transition: .3s 0s ease-in-out;
+    transform: scale(1);
+  }
+  .btn-delivery:hover{
+    transform: scale(1.2);
+  }
+  .carousel-indicators {
+    bottom: 30px;
+  }
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 5px;
+    border: 1px solid var(--secondColor);
+  }
+  #menu{
+    padding: 12em 0;
+  }
+  .shapemove{
+    width: 90%;
+    height: 200px;
+    background-color: var(--mainColor);
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    z-index: -1;
+    animation: moveFood 3s 0s ease-in-out infinite;
+  }
+  @keyframes moveFood{
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+  }
+
+  h1{
+    font-size: 3em;
+    font-weight: 500;
+  }
+  .mainTitle{
+    color: var(--mainColor);
+    background-color: #FFFFFF;
+    padding-right: .3em;
+    width: max-content;
+  }
+  #menu p{
+    text-align: justify;
+  }
+  .btn-botek{
+    border-radius: 0;
+    border:2px solid var(--mainColor);
+    color: var(--mainColor);
+    margin: 10px 0;
+    background-color: #FFFFFF;
+    transition: .3s 0s ease-in-out;
+  }
+  .btn-botek:hover{
+    color: #FFFFFF;
+    background-color:var(--mainColor);
+  }
+  #stores{
+    background-color: var(--secondColor);
+    padding: 12em 0;
+    background-image: url(../img/shape.png);
+  }
+  .infoStore{
+    display: block;
+  }
+  select {
+    word-wrap: normal;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: url(http://dropdown/arrow/url/) no-repeat;
+    background-position: right center;
+    background-color: #CCCCCC;
+    color: #000000;
+    border: 1px solid #000000;
+    }
+  
+  .infoStore p{
+    position: relative;
+    display: block;
+    top: -32px;
+    left: 38px;
+    margin-bottom: -10px;
+  }
+  .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: var(--mainColor);
+  }
+  .citiesLinks, .citiesLinks:hover{
+    color: #547F74;
+  }
+  .storesPanel{
+    max-height: 360px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  .deliveryStores{
+    width: 100%;
+  }
+  .carousel-inner{
+    border-radius: 10px;
+  }
+  #contact{
+    padding: 12em 0;
+  }
+  fieldset{
+    background-color: #FFFFFF;
+    box-shadow: 0 0 20px rgba(0,0,0,.30);
+    padding: 3em;
+    position: relative;
+  }
+  fieldset .shape{
+    width: 80px;
+    height: 80px;
+    background-color: var(--mainColor);
+    position: absolute;
+    bottom: -40px;
+    left: -40px;
+    z-index: -1;
+  }
+  a{
+    color:var(--mainColor)
+  }
+  input[type="checkbox"] { display: none; }
+  input[type="checkbox"] + label {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 20px;
+    color: #000;
+    cursor: pointer;
+    /* -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none; */
+  }
+  input[type="checkbox"] + label:last-child {
+    margin-bottom: 20px;
+  }
+  input[type="checkbox"] + label:before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: .6;
+    -webkit-transition: all .12s, border-color .08s;
+    transition: all .12s, border-color .08s;
+  }
+  input[type="checkbox"]:checked + label:before {
+    width: 10px;
+    top: -5px;
+    left: 5px;
+    border-radius: 0;
+    opacity: 1;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  /*Start Stores*/
+  .text-green{
+    color: #547F74;
+  }
+  /*End Stores*/
