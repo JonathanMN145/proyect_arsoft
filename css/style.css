@@ -162,7 +162,7 @@
   .mainTitle{
     color: var(--mainColor);
     background-color: #FFFFFF;
-    padding-right: .3em;
+    padding-right: .5em;
     width: max-content;
   }
   #menu p{

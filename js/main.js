@@ -5,7 +5,7 @@
   
   function navbarScroll() {
     var y = window.scrollY;
-    if (y > 20) {
+    if (y > 30) {
     $('.mainNav').addClass('NavSmall');
     $('.mainLogo').addClass('logoScroll');
   
