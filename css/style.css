@@ -293,3 +293,14 @@
     color: #547F74;
   }
   /*End Stores*/
+
+  /* FORMATO DE IMAGENES CARRUSEL */
+.imgCarrusel {
+  width: 200px;
+  height: 500px;
+}
+
+.imgCarrusel img {
+  width: 100%;
+  height: auto;
+}
